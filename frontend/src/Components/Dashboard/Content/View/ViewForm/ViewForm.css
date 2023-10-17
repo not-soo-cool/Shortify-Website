@@ -1,0 +1,118 @@
+
+/* .viewform {
+    height: 100vh;
+}
+
+.viewform section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+} */
+
+.viewformok {
+    position: relative;
+    left: 300px;
+    top: 70px;
+    padding: 15px 60px 15px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-radius: 10px;
+    width: 1100px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.viewformok h2{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    /* color: #8f2c24; */
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.viewformok .input-box {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.viewformok .input-box .three {
+    width: 33%;
+}
+
+.viewformok .input-box .two {
+    width: 50%;
+}
+
+.viewformok .input-box .one {
+    width: 100%;
+}
+
+.viewformok .input-box input {
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: .85em;
+    /* color: #3b7ca5; */
+    color: black;
+    border-radius: 5px;
+    /* background: #fff; */
+    background: rgba(0, 0, 0, 0.1);
+    /* background: transparent; */
+    border: none;
+    border-right: 2px solid rgb(11, 59, 191);
+    border-left: 2px solid rgb(131, 136, 151);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.viewformok .input-box input:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.viewformok .input-box ::placeholder {
+    color: black;
+}
+
+.viewformok .input-box .btn {
+    position: relative;
+    border: none;
+    outline: none;
+    background: #017ac6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.viewformok .input-box .btn:hover {
+    background: #009afa;
+}
+
+.viewformok .sixth {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.viewformok .group a {
+    font-size: 1.05em;
+    color: #017ac6;
+    text-decoration: none;
+}
